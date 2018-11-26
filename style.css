@@ -1,0 +1,108 @@
+#media-player {
+    position: relative;
+}
+#media-controls {
+    position: absolute;
+    bottom: 8px;
+}
+
+video {
+    width: 450px;
+}
+
+#progress-bar {
+
+}
+.btnWrapper {
+    display: inline-block;
+}
+button {
+    padding: 0;
+}
+button:focus {
+    outline: none;
+}
+#replay-button {
+    display: inline-block;
+    text-indent: -1000em;
+    background: url(./replay.png) no-repeat center center;
+    background-size: 80% 80%;
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
+
+#play-pause-button {
+    display: inline-block;
+    text-indent: -1000em;
+    background: url(./play.png) no-repeat center center;
+    background-size: 80% 80%;
+    width: 15px;
+    height: 20px;
+    border: 0;
+
+}
+
+#stop-button {
+    display: inline-block;
+    text-indent: -1000em;
+    background: url(./stop.png) no-repeat center center;
+    background-size: 80% 80%;
+    width: 17px;
+    height: 17px;
+    border: 0;
+
+}
+
+#volume-inc-button {
+    display: inline-block;
+    text-indent: -1000em;
+    background: url(./plusV.png) no-repeat center center;
+    background-size: 100% auto;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    margin: 0 3px;
+}
+
+#volume-dec-button {
+    display: inline-block;
+    text-indent: -1000em;
+    background: url(./minusV.png) no-repeat center center;
+    background-size: 100% auto;
+    width: 20px;
+    height: 20px;
+    border: 0;
+
+}
+
+#mute-button {
+    display: inline-block;
+    text-indent: -1000em;
+    background: url(./sound.png) no-repeat center center;
+    background-size: 10px auto;
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
+
+
+#custom-seekbar {
+    cursor: pointer;
+    height: 10px;
+    margin: 0 13px;
+    outline: thin solid #fff;
+    overflow: hidden;
+    position: relative;
+    width: 250px;
+    display: inline-block;
+}
+
+#custom-seekbar span {
+    background-color: #fff;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 10px;
+    width: 0;
+}
